@@ -1,15 +1,28 @@
-Hacker news scraper programme.
+Information:
 
-After executing programme will scrape "https://news.ycombinator.com/news" site for the most popular news
 
-final result is a list of tuples where each has: rank, name of article, link and votes number
+    Hacker news scraper programme using Python3 (so do not launch with python2)
 
-0. create and activate an environment inside downloaded newsScraper project 
+    After executing 'hacker_news_scraper.py' will scrape "https://news.ycombinator.com/news" site for the most popular news
 
-1. install required libraries using "pip install -r requirements.txt"
+    final result is a list of tuples where each has: rank, name of article, link and votes number
 
-2. follow instructions in hacker_news_scraper.py to configurate the programme or just run in terminal
-with default settings (you will only the most important news as result)
+
+
+
+Instructions: (commands for Windows might differ)
+
+
+    1. Create a new environment                                 "  python -m venv venv  " 
+
+    2. Activate it                                              "  source venv/bin/activate  "
+
+    3. install required libraries by executing                  "  pip install -r requirements.txt  "
+    in terminal
+
+    4. launch hacker_news_scraper.py through terminal with default settings (see only posts with popularity of 500)
+
+
 
 PS: programme will take some time to scrape all the pages
 
